@@ -99,3 +99,26 @@ button {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+
+.submenu {
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+  border: 1px solid #999;
+}
+
+.submenu>li+li {
+  border: 1px solid #999;
+}
+
+.submenu>li>a {
+  display: block;
+  padding: 0.5em 1.5em;
+  background-color: #eeeeee;
+  color: #336699;
+  text-decoration: none;
+}
+
+.submenu>li>a:hover {
+  background-color: #fff;
+}
